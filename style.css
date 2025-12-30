@@ -7,7 +7,6 @@ body{
     align-items: center;
     box-sizing: border-box;
 }
-
 form{
     width: 30rem;
     border: 1px solid #666;
@@ -23,6 +22,7 @@ input{
 }
 h1{
     margin-top: 0;
+    text-align: center;
 }
 .field{
     border-bottom: 1px solid #666;
@@ -39,7 +39,7 @@ h1{
 }
 .list-titel{
     margin-left: -1.5rem;
-    font-size: 15px;
+    font-size: 14px;
 }
 .comments textarea{
     width: 100%;
@@ -71,6 +71,5 @@ h1{
     height: 2rem;
 }
 .submit:hover{
-  transform: scale(1.1);
-  filter: brightness(1.5);
+    background: #4b4b4b;
 }
