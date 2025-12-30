@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="#">
+        <h1>my feedback form</h1>
+        <div class="field">
+            <label for="name">name</label>
+            <input type="text" id="name" required>
+            <label for="email">email</label>
+            <input type="text" id="email" required>
+            <label for="password">password</label>
+            <input type="text" id="password" required>
+        </div>
+        <div class="question">
+            <ul>
+                <li class="list-titel"><h2>plase check all the emotion that apply to you:</h2></li>
+                <li>
+                    <input type="checkbox" id="angry">
+                    <label for="angry">angry</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="sad">
+                    <label for="sad">sad</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="happy">
+                    <label for="happy">happy</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ambivalent">
+                    <label for="ambivalent">ambivalent</label>
+                </li>
+            </ul>
+            <ul>
+                <li class="list-titel"><h2>how satisfiled were you with our service ?</h2></li>
+                <li>
+                    <input type="radio" id="very-satisfiled" name="satisfiledly-input">
+                    <label for="very-satisfiled">very satisfiled</label>
+                </li>
+                <li>
+                    <input type="radio" id="satisfiled" name="satisfiledly-input">
+                    <label for="satisfiled">satisfiled</label>
+                </li>
+                <li>
+                    <input type="radio" id="didn't-care" name="satisfiledly-input">
+                    <label for="didn't-care">didn't care</label>
+                </li>
+                <li>
+                    <input type="radio" id="dissatisfied" name="satisfiledly-input">
+                    <label for="dissatisfied">dissatisfied</label>
+                </li>
+                <li>
+                    <input type="radio" id="very-dissatisfied" name="satisfiledly-input">
+                    <label for="very-dissatisfied">very dissatisfied</label>
+                </li>
+            </ul>
+        </div>
+        <div class="comments">
+            <h4>further comments:</h4>
+            <textarea id="" placeholder="enter your comments..."></textarea>
+        </div>
+        <div class="photo">
+            <h4>bio photo:</h4>
+            <input type="file">
+        </div>
+        <div class="location">
+            <h4>location visited:</h4>
+            <select id="">
+                <option value="">select location</option>
+                <option value="amol">amol</option>
+                <option value="babol">babol</option>
+                <option value="sari">sari</option>
+                <option value="mahmod abad">mahmod abad</option>
+            </select>
+        </div>
+        <input class="submit" type="submit" value="submit">
+    </form>
+</body>
+</html>
